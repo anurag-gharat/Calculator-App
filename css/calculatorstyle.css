@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.calculator-container{
+    width: 100vw;
+    height: 100vh;
+}
+.calculator-container>form{
+    width: 100%;
+    height: 30vh;
+}
+.calculator-container>form>input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #fff;
+    font-size: 3rem;
+}
+.calculator-container>.table-holder{
+    width: 100vw;
+    height: 70vh;
+    background-color: #f2f2f2;
+}
+.calculator-container>.table-holder>table{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.button{
+    height: 100%;
+    width:100%;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 400;
+}
