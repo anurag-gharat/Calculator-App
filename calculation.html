@@ -19,7 +19,7 @@
                         <input class="button" type="button" value="C" onclick="clean()">
                     </td>
                     <td>
-                        <input class="button" type="button" value="<-" onclick="backspace()"> 
+                        <input class="button" type="button" value="<<" onclick="backspace()"> 
                     </td>
                     <td>
                         <input class="button" type="button" value="%"  onclick="insert('%')">
@@ -73,16 +73,14 @@
                 </tr>
                 <tr>
                     <td>
+                        <input class="button" type="button" value="." onclick="insert('.')">
+                        
+                    </td>
+                    <td>
                         <input class="button" type="button" value="0" onclick="insert(0)">
                     </td>
-                    <td>
-                        <input class="button" type="button" value="00" onclick="insert(00)">
-                    </td>
-                    <td>
-                        <input class="button" type="button" value="." onclick="insert('.')">
-                    </td>
-                    <td>
-                        <input class="button" type="button" value="=" onclick="eqaulsto()">
+                    <td colspan="2">
+                        <input class="button isequalsto" type="button" value="=" onclick="eqaulsto()">
                     </td>
                 </tr>
             </table>

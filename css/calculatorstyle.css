@@ -9,34 +9,45 @@ body{
 }
 .calculator-container>form{
     width: 100%;
-    height: 30vh;
+    height: 40vh;
 }
 .calculator-container>form>input{
     width: 100%;
     height: 100%;
     border: none;
-    background-color: #fff;
-    font-size: 3rem;
+    /* background-color: #2d3436; */
+    background: linear-gradient(60deg,#Ada0c8,#c2b5d4);
+    color: white;
+    font-size: 4rem;
+    font-weight:500;
 }
 .calculator-container>form>input:focus{
     border: none;
 }
-
 .calculator-container>.table-holder{
     width: 100vw;
-    height: 70vh;
-    background-color: #f2f2f2;
+    height: 60vh;
+   
 }
 .calculator-container>.table-holder>table{
     width: 100%;
     height: 100%;
-    padding: 5px;
+    padding: 0px;
 }
 .button{
+    box-sizing: border-box;
     height: 100%;
     width:100%;
     border: none;
+    padding: 0px;
     background-color: transparent;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 400;
+    margin:0px;
+    color: #636e72;
+}
+.isequalsto{
+    color:white;
+    background: linear-gradient(60deg,#Ada0c8,#c2b5d4);
+    border-radius: 25px;
 }
